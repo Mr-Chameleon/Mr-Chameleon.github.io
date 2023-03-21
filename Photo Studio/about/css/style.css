@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A ;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+
+li,a,button{
+    font-weight: 500;
+    font-size: 22px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:30px 10% ;
+}
+
+.logo{
+    cursor: pointer;
+    width: 250px;
+    height: 80px;
+    margin-right: auto;
+    
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: #393b3c;
+}
+button{
+    padding: 9px 25px;
+    background-color:rgb(63, 70, 71);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: #393b3c;
+}
+/* main start */
+.yazi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #edf0f1;
+    font-size: 30px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+main{
+    width: 100%;
+    height: 1000px;
+}
+main .box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+
+}
+main .box1 img{
+    height: 650px;
+    width: 650px;
+}
+main .box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+main .box2 u{
+    color: #edf0f1;
+    text-decoration: line-through;
+}
+main .box3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 20%;
+    padding-right: 330px;
+    text-align: center;
+}
+main .box3 u{
+    color: #edf0f1;
+}
+main .box4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+
+}
+main .box4 u{
+    color: #edf0f1;
+    text-align: center;
+    text-decoration: overline;
+    padding-top: 20px;
+    
+
+}
+
+
+
+
+
+/* footer start */
+footer{
+    padding-top: 100px;
+    height: 270px;
+    width: 100%;
+}
+footer .box5{
+    width: 100%;
+    height: 2px;
+    background: #edf0f1;
+    margin-top: 20px;
+}
+footer ul{
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 45px;
+    margin-bottom: 20px;
+
+}
+footer ul li{
+    padding-right: 20px;
+}
+footer pre{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    font-size: 12px;
+}
